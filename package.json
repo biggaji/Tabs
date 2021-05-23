@@ -1,0 +1,29 @@
+{
+  "name": "tabs",
+  "version": "1.0.0",
+  "description": "Navigation tabs styled with scss",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biggaji/tabs.git"
+  },
+  "author": "Tobi Ajibade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biggaji/tabs/issues"
+  },
+  "homepage": "https://github.com/biggaji/tabs#readme"
+}
